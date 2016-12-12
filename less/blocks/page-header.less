@@ -1,0 +1,23 @@
+@import "../variables.less";
+@import "../mixins.less";
+@import "../scaffolding.less";
+
+.visually-hidden{
+	.hidden();
+}
+.page-header{
+	background-color: #1d2631;
+	background-image: url("../../img/background/background-700x498.jpg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+@media @tablet-widths{
+	.page-header{
+	background-image: url("../../img/background/background-1200x729.jpg");
+	}
+}
+@media @desktop-widths-nav{
+	.page-header{
+	background-image: url("../../img/background/background-1400x976.jpg");
+	}
+}
